@@ -1,8 +1,6 @@
 
-# Setup Docker Laravel 11 com PHP 8.3
-[By prof. Carlos Ferreira - Especializa TI](https://github.com/especializati/setup-docker-laravel)
 
-- Setup Ajustado para uso do mysql
+- Setup Docker com mysql
 - Timezone ajustado para o Brasil
 
 ### Passo a passo
