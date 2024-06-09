@@ -17,6 +17,14 @@ Crie o Arquivo .env
 cp .env.example .env
 ```
 
+Edite o .env para usar Redis
+```sh
+SESSION_DRIVER=redis
+QUEUE_CONNECTION=redis  
+CACHE_STORE=redis  
+REDIS_HOST=redis  
+```
+
 Suba os containers do projeto
 ```sh
 docker compose up -d
