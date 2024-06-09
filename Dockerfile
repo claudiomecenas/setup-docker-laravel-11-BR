@@ -19,8 +19,8 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-# adicionei a extensão intl exigida pelo Filament - por Claudio Mecenas
-RUN docker-php-ext-install intl pdo_mysql mbstring exif pcntl bcmath gd sockets
+# adicionei as extensaões zip e intl exigidas pelo Filament - por Claudio Mecenas
+RUN docker-php-ext-install zip intl pdo_mysql mbstring exif pcntl bcmath gd sockets
 # ativando a extensão intl - por Claudio Mecenas
 RUN docker-php-ext-enable intl 
 
