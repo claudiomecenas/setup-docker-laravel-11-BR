@@ -1,6 +1,6 @@
 
 
-- Setup Docker com mysql
+- Setup Docker com mysql e phpmyadmin
 - Timezone ajustado para o Brasil
 
 ### Passo a passo
