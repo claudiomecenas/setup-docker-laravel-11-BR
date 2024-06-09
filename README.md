@@ -2,6 +2,7 @@
 
 - Setup Docker com mysql e phpmyadmin
 - Timezone ajustado para o Brasil
+- Adicionado extensões PHP exigidas pelo Filament
 
 ### Passo a passo
 Clone Repositório
