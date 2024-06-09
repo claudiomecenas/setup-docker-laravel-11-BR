@@ -40,6 +40,7 @@ docker compose exec app bash
 Instale as dependências do projeto
 ```sh
 composer install
+composer update
 ```
 
 Gere a key do projeto Laravel
